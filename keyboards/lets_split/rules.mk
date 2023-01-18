@@ -1,6 +1,12 @@
+# Bootloader selection
+# Use the `caterina` bootloader for the Qwiic Pro Micro, use `atmel-dfu` for the Bit-C
+BOOTLOADER = atmel-dfu
+
 # Build Options
 #   change yes to no to disable
-#
+KEY_LOCK_ENABLE = yes
+
+# stock build options
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
