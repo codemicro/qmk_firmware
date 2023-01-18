@@ -1,6 +1,6 @@
 #!/bin/bash
 
-QMK_DIR="$HOME/qmk_firmware"
+QMK_DIR="$HOME/src/codemicro/qmk_firmware"
 
 function flash {
     make --jobs=1 $KEYBOARD:$KEYMAP:flash
