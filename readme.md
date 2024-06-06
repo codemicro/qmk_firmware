@@ -22,5 +22,3 @@ make codemicro/macropad:codemicro
 ```
 
 This compiles the `codemicro` keymap for the `codemicro/macropad` keyboard and will output a file called `codemicro_macropad_codemicro.uf2` that be copied onto the Pi Pico.
-
-
